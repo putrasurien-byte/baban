@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 const projects = [
   {
     title: 'E-Commerce Platform',
-    description: 'Platform e-commerce modern dengan fitur lengkap termasuk payment gateway, inventory management, dan analytics dashboard.',
+    description: 'E-commerce adalah semua aktivitas jual beli yang dilakukan secara online melalui internet, mencakup transaksi produk fisik dan digital..',
     tags: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
     image: '🛒',
     color: 'from-blue-500/20 to-cyan-500/20',
@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: 'Learning Management System',
-    description: 'Platform pembelajaran online dengan video streaming, quiz interaktif, dan progress tracking.',
+    description: 'Learning Management System (LMS) adalah perangkat lunak yang dirancang untuk mengelola, mendistribusikan, dan melacak materi serta aktivitas pembelajaran secara online..',
     tags: ['Next.js', 'TypeScript', 'MongoDB', 'WebRTC'],
     image: '📚',
     color: 'from-purple-500/20 to-pink-500/20',
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: 'Social Media Dashboard',
-    description: 'Dashboard analytics untuk social media dengan real-time data visualization dan reporting.',
+    description: 'Sosial media adalah platform digital yang memungkinkan pengguna untuk berinteraksi, berbagi konten, dan berkomunikasi secara online tanpa batasan ruang dan waktu..',
     tags: ['React', 'D3.js', 'Firebase', 'Tailwind'],
     image: '📊',
     color: 'from-orange-500/20 to-red-500/20',
@@ -32,7 +32,7 @@ const projects = [
   },
   {
     title: 'AI Content Generator',
-    description: 'Tool untuk generate konten menggunakan AI dengan integrasi berbagai model language.',
+    description: 'Content creator adalah individu yang menciptakan dan membagikan konten digital, baik untuk tujuan edukasi maupun hiburan, melalui berbagai platform seperti media sosial, blog, dan video..',
     tags: ['Python', 'FastAPI', 'OpenAI', 'React'],
     image: '🤖',
     color: 'from-green-500/20 to-teal-500/20',
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     title: 'Video Editing Tutorial',
-    description: 'Seri tutorial video editing dengan 100+ episode dan 10k+ subscribers.',
+    description: 'alat dan teknologi yang memanfaatkan kecerdasan buatan untuk menghasilkan berbagai jenis konten.',
     tags: ['Premiere Pro', 'After Effects', 'YouTube'],
     image: '🎬',
     color: 'from-red-500/20 to-orange-500/20',
@@ -50,7 +50,7 @@ const projects = [
   },
   {
     title: 'Coding Tips & Tricks',
-    description: 'Konten tips programming dan best practices untuk developer Indonesia.',
+    description: 'Coding adalah proses menulis instruksi dalam bentuk baris kode yang dapat dimengerti oleh komputer untuk menjalankan suatu tugas tertentu..',
     tags: ['Instagram', 'TikTok', 'YouTube Shorts'],
     image: '💡',
     color: 'from-cyan-500/20 to-blue-500/20',

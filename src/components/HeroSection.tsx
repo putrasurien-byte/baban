@@ -17,6 +17,35 @@ export default function HeroSection() {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          
+          {/* --- BAGIAN FOTO PROFIL --- */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ 
+              duration: 0.5,
+              type: "spring",
+              stiffness: 260,
+              damping: 20 
+            }}
+            className="mb-8 flex justify-center"
+          >
+            <div className="relative group">
+              {/* Efek Glow di belakang foto */}
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary to-purple-600 rounded-full blur opacity-40 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
+              
+              {/* Container Foto */}
+              <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-background overflow-hidden glass shadow-2xl">
+                <img 
+                  src="/foto profile.jpeg" // Ganti dengan path foto kamu di folder public
+                  alt="Nisban Profile"
+                  className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+            </div>
+          </motion.div>
+          {/* ------------------------- */}
+
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -28,7 +57,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2 }}
             >
-              👋 Selamat datang di portfolio saya
+              👋 Selamat datang di website saya
             </motion.span>
           </motion.div>
 
@@ -38,9 +67,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
           >
-            Fullstack Developer
-            <br />
-            <span className="text-gradient">&amp; Content Creator</span>
+            <span className="text-gradient">Nisban's Portfolio</span>
           </motion.h1>
 
           <motion.p
